@@ -4,6 +4,7 @@
   "description": "bot to count number of user comments",
   "main": "checkbot.js",
   "scripts": {
+    "start": "node checkbot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
