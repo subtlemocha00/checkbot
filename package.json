@@ -14,12 +14,13 @@
   "author": "@subtlemocha",
   "license": "ISC",
   "dependencies": {
-    "-": "^0.0.1",
     "axios": "^1.16.0",
     "discord.js": "^13.6.0",
     "dotenv": "^16.0.0",
-    "node": "^17.7.2",
     "node-fetch": "^3.2.10",
     "xhr2": "^0.2.1"
+  },
+  "overrides": {
+    "form-data": "^4.0.5"
   }
 }
