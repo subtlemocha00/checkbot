@@ -1,26 +1,17 @@
 {
   "name": "checkbot",
   "version": "1.0.0",
-  "description": "bot to count number of user comments",
-  "main": "checkbot.js",
+  "description": "A Discord bot for checking things",
+  "main": "index.js",
   "scripts": {
-    "start": "node checkbot.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "keywords": [
-    "discord",
-    "checkbot"
-  ],
-  "author": "@subtlemocha",
-  "license": "ISC",
   "dependencies": {
-    "axios": "^1.16.0",
-    "discord.js": "^13.6.0",
-    "dotenv": "^16.0.0",
-    "node-fetch": "^3.2.10",
-    "xhr2": "^0.2.1"
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.0.3"
   },
-  "overrides": {
-    "form-data": "^4.0.5"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
